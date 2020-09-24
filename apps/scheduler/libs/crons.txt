@@ -1,0 +1,4 @@
+*/1 * * * * php /var/www/html/cmd.php -c=scheduler.scheduler -a=stop    [Have to do for scheduler_server]
+*/1 * * * * php /var/www/html/scheduler_server/init.php
+*/1 * * * * /var/www/html/test.sh	[Using files to delete]
+

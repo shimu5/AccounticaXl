@@ -1,0 +1,357 @@
+#header {
+    background: none repeat scroll 0 0 #333333;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: auto;
+}
+
+
+
+#header .logo h1 {
+    color: #99CC66;
+    font-size: 37px;
+    left: -8px;
+    line-height: 65px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+
+BODY {
+	background-color: #ECF5EF;
+}
+
+.container {
+	width: 980px;
+	background: transparent;
+}
+/*
+.ig5 {
+	clear: both;
+	width: 100% !important;
+}
+*/
+.main_box {
+	margin: 0 30px;
+	background: white;
+	border: 1px solid #99CC99;
+	border-top: 0 none;
+}
+
+.wrapper {
+	margin: 0 25px;
+}
+
+ul.simple li a, ul.simple li span {
+	color: #008800;
+}
+
+.searchform {
+    background-color: #F2FFF8;
+    border: 2px solid #C8EEC2;
+}
+
+.searchform .input .iw {
+    border: 1px solid #66CC66;
+}
+
+.heading.wrapper {
+    padding: 16px 4px 3px;
+}
+
+.heading H1 {
+    color: #226622;
+}
+
+.legend {
+	color: #118822 !important;
+}
+
+
+.flash {
+    height: 0;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 3px;
+}
+
+.flash > div {
+    border-radius: 0 0 4px 4px;
+    border-style: none solid solid;
+}
+
+.ig5 {
+	border: 0 none !important;
+	margin: 0 !important;
+	width: 49%;
+}
+.ig10 {
+	border: 0 none !important;
+	margin: 0 !important;
+	width: 99%;
+        clear: both;
+}
+
+.input label {
+}
+
+.input .iw {
+	_background-color: white !important;
+	_overflow: hidden !important;
+}
+
+.input input {
+	_width: 95% !important;
+	_overflow: hidden;
+}
+
+.menucontainer, .searchform, div.index {
+	border-radius: 0;
+}
+
+.searchform {
+	margin-bottom: 0;
+	border: 1px solid #ADA;
+	border-bottom: 0 none;
+}
+
+
+body {
+	font-size: 13px;
+}
+
+#header .logo {
+	/*width: 200px;*/
+        width: 130px;
+}
+
+#footer {
+	height: auto;
+	background: #EEE;
+	border: 1px solid #999;
+	border-bottom: 0 none;
+	margin-top: 5px;
+}
+
+#footer .endcontent, #footer .spacing {
+	display: none;
+}
+
+#footer .common {
+    padding: 8px 0;
+}
+
+/*
+.container {
+	width: 480px;
+}
+.ig5 {
+	clear: both;
+	width: 100% !important;
+}
+*/
+
+.zform div.input label {
+	width: 120px;
+	float: left;
+}
+
+.zform div.input .iw {
+    background-color: #F5F5F5;
+    border: 1px solid #BBBB99;
+	margin: 0 10px 0 145px;
+	overflow: visible;
+	padding: 0 8px 0 0;
+	clear: none;
+}
+
+
+.zform.one div.input label {
+	width: 120px;
+	float: left;
+}
+
+.zform.one div.input .iw {
+    background-color: #F5F5F5;
+    border: 1px solid #BBBB99;
+	margin: 0 10px 0 145px;
+	overflow: visible;
+	padding: 0 8px 0 0;
+	clear: none;
+}
+
+
+.zform.two div.input label {
+    vertical-align: top;
+    color: #666;
+	display: block;
+	padding: 5px 12px 2px;
+
+}
+
+.zform.two .input .iw {
+    border: 1px solid #BB9;
+    clear: both;
+    background-color: #F5F5F5;
+    margin: 0 10px 0 10px;
+    overflow: visible;
+    padding: 0 8px 0 0 ;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+.logense {
+    padding: 2px 4px;
+    border-radius: 2px;
+    font-weight: bold;
+    background: #EEE;
+    border: 1px solid #CCC;
+    display: inline;
+}
+
+.index .action a {
+    width: auto;
+    min-width: 16px;
+    padding: 2px 6px 3px;
+}
+
+.index tr:hover .action a {
+    border-color: #666;
+    box-shadow: 0 0 1px 0 #666;
+}
+
+.index tr:hover .action a:hover {
+    border-color: #369;
+    box-shadow: 0 0 1px 0 #369;
+    background: -moz-linear-gradient(center top , #BDF, #ACE) repeat scroll 0 0 transparent
+}
+
+.index .action .logense {
+    background: #F5F5F5;
+    border-color: #EEE;
+    cursor: pointer;
+}
+
+.index tr:hover .action .logense:hover {
+    background: #BDF;
+    border-color: #69C;
+}
+
+.logense.blue {
+    background: #DEF;
+    border: 1px solid #69C;
+}
+
+
+.icon16 {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.icon16.disabled {
+    background: transparent url('../../images/icons/16/exclamation.png') top center no-repeat;
+}
+
+.icon16.flexisend0 {
+    background: transparent url('../../images/icons/16/clock.orange..png') top center no-repeat;
+}
+
+.icon16.flexisend1 {
+    background: transparent url('../../images/icons/16/tick.png') top center no-repeat;
+}
+
+.icon16.flexisuccess10 {
+    background: transparent url('../../images/icons/16/exclamation.png') top center no-repeat;
+}
+
+.icon16.flexisuccess11 {
+    background: transparent url('../../images/icons/16/tick.png') top center no-repeat;
+}
+
+.icon16.declined {
+    background: transparent url('../../images/icons/16/exclamation.png') top center no-repeat;
+}
+.icon16.requested {
+    background: transparent url('../../images/icons/16/clock.orange..png') top center no-repeat;
+}
+
+/*
+.index table td {
+    border: 1px solid white;
+}*/
+
+
+ul.blackgreen {
+    padding-right: 10px;
+}
+
+ul.blackgreen li a {
+    color: #EFE79D;
+    font-size: 14px;
+}
+
+ul.blackgreen li:hover > a {
+    color: white;
+    background-color: black;
+    background: -moz-linear-gradient(black, #222);
+
+}
+
+ul.blackgreen > li > a {
+    color: #EFF79D;
+    font-size: 15px;
+}
+
+
+ul.blackgreen ul {
+    border: 2px solid black;
+}
+
+ul.blackgreen ul li {
+    background: #333;
+}
+
+ul.blackgreen > li:hover > a {
+    color: white;
+    background-color: black;
+    background: -moz-linear-gradient(#333, black);
+}
+
+ul.blackgreen ul li:hover > a {
+    text-shadow: 0px 0px 1px #666;
+    box-shadow: 0 0 2px rgba(255,255,255,.5);
+}
+
+.menucontainer {
+    padding: 0 !important;
+    heigh: 0px;
+}
+
+
+
+.loginform { max-width: 350px; *width: 350px; margin: 0 auto; background: #FCFCFC; padding: 30px; border: 1px solid #CCC; }
+.loginform h3 { text-align: center; font-weight: bold; border-bottom: 1px solid #CCC; font-size: 1.4em; line-height: 2em; }
+.loginform .input { padding-top: 2px; }
+.loginform .input label { display: block; padding-left: 1px; line-height: 2em; }
+.loginform .input input { display: block; width: 100%; }
+.loginform .flash { border: 1px solid #CCC; border-top: 0px none; text-align: center; }
+.loginform fieldset {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.ancestors {
+    font-size: .85em;
+}
+
+.legend {
+    margin: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-bottom: 0 none;
+}

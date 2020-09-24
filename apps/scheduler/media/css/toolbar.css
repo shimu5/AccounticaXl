@@ -1,0 +1,37 @@
+.toolbar {
+    float: right;
+}
+
+.toolbar a {
+    float: left;
+
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+
+    border: 1px solid #666;
+    background-color: #F7F2DF;
+    color: #333;
+
+    margin-left: 8px;
+    min-width: 40px;
+
+    padding: 0 8px;
+    
+    height: 40px;
+    line-height: 40px;
+
+    vertical-align: middle;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+.toolbar a:hover {
+    background-color: #333;
+    border-color: black;
+    color: white;
+}
+
+
+

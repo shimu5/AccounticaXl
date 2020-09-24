@@ -1,0 +1,210 @@
+body {
+	font-family: "Calibri";
+}
+
+.container {
+	padding: 1em 0 0;
+	width: 96%;
+	margin: 0 auto;
+	color: #FF9;
+	clear: both;
+}
+
+.info {
+	
+}
+
+.info .group {
+    float:left;
+	min-width: 21em;
+	width: 32%;
+	/* padding-right: 1%; */
+	margin-right: 1%;
+	overflow: hidden;
+}
+
+.info > :last-child {
+	width: 34%;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.info table td, .info table th {
+    padding: 0px 5px 4px;
+	vertical-align: top;
+}
+
+.info table td {
+	color: #FF9;
+}
+
+.info table th {
+    color: #999;
+}
+
+.info .clear {
+	float: none;
+	clear: both;
+	width: auto;
+}
+
+.box.userdata div div {
+    float: left;
+    width: 33.33%;
+}
+
+.info h2 {
+	color: yellow;
+	font-size: 1.2em;
+	padding: 0 0.5em 5px;
+	border-bottom: 1px solid #9F6151;
+	margin-bottom: 0.5em;
+}
+
+div.end {
+	clear: both;
+	border-bottom: 1px solid #9F6151;
+	padding: 0.5em 0 0 ;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+	display: block;
+}
+
+
+
+div.exception {  }
+
+div.exception h1 { font-size: 1.6em; line-height: 1.3em; color: #993300; }
+div.exception h1 span { color: #CC0000; }
+
+div.exception h3 { font-size: 1.2em; color: #993300; }
+div.exception h3 span { color: #CC0000; }
+
+div.exception > div, div.exception > p {
+	color: #666;
+	margin: 0;
+	border-left: 0.5em solid #EEE;
+	padding: 0.15em 0 0.25em 0.5em;
+	margin-left: 1px;
+}
+
+div.exception > p:hover {
+	border-color: #CCC;
+}
+
+body {
+	background-color: #700505;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+.main_error {
+	margin-top: 1.5em;
+	border-top: 5px solid #FFC1C1;
+	background-color: #FFFBFB;
+	border-bottom: 5px solid #FFC1C1;
+	padding: 2em;
+}
+
+.main_error h1 {
+	font-family: "Times New Roman", sans-serif;
+	font-size: 2.5em;
+	line-height: 1.5em;
+}
+
+.main_error p {
+	color: #CC3300;
+}
+
+.box {
+	border: 2px solid #550000;
+	background-color: #440000;
+	margin: 1em;
+	color: #FFFF99;
+}
+
+.box > div {
+	margin: 2px;
+	border: 3px solid #4C0101;
+	border: 1px solid #511;
+	background-color: #480000;
+	padding: 1em;
+}
+
+.box > div > table {
+	width: 100%;
+}
+
+.box h2 {
+	border-bottom: 1px solid #6D1F00;
+	color: #E0D800;
+	font-size: 1.3em;
+	padding: .2em 0;
+	margin-bottom: 0.5em;
+}
+
+.debug {
+	width: 96%;
+	margin: 0 auto;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+}
+
+.debug table {
+	width: 100%;
+}
+
+.debug table th,.debug table td {
+	padding: 3px 5px;
+}
+
+.debug table {
+	border: 1px solid #744;
+	border-top: 0px none;
+	background-color: #480000;
+	padding: 0.5em;
+	color: #DD8;
+}
+
+.debug table th {
+	color: #AAA;
+}
+
+
+.debug table td {
+	border-top: 1px solid #6D1F00;
+}
+
+/*
+
+.tdebug {
+    width: 100%;
+}
+.tdebug th {
+    width: 20%;
+}
+.tdebug td {
+    width: 80%;
+}
+*/
+.box tr td,.box tr th {
+	padding: 0px 3px;
+}
+
+.box tr td {
+	padding: 0px 3px;
+}
+
+table.tdebug th, table.tdebug td {
+	padding-top: 0 5px;
+}
+
+
+
+.tdebug TD pre {
+	font-family: inherit;
+	margin: 0;
+	padding: 0;
+	white-space: normal;
+}

@@ -1,0 +1,263 @@
+div.index {
+    clear: both;
+    border: 1px solid #CCC;
+    zoom: 1;
+    overflow: hidden;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.index TABLE {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.index TABLE TD
+{
+    padding: 2px;
+    /*border-right: 1px solid #EEE;*/
+	border: 1px solid transparent;
+    border-top: 1px solid #DDD;
+	vertical-align: top;
+}
+
+/* ie6 support for balck borders*/
+.index TABLE TD {
+    _border: 1px solid white;
+}
+
+/*
+.index TABLE TD:first-child, .index TABLE TH:last-child, {
+    border-right: 0px none;
+}
+*/
+.index TABLE TBODY TD
+{
+    background-color: #FFFFFF;
+}
+
+.index TABLE THEAD, .index TABLE TFOOT {
+	background: #F5F5F5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F5F5F5), to(#EEEEEE))  ;
+	background: -moz-linear-gradient(top,  #F5F5F5,  #EEEEEE);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#EEEEEE');
+}
+
+.index TABLE THEAD {
+    border-bottom: 2px solid #D5D5D5;
+}
+
+.index TABLE TH, .index TABLE TFOOT TD
+{
+    padding: 2px 4px;
+    /* border-right: 1px solid #DDD; */
+}
+
+.index TABLE THEAD TH {
+    padding: 4px 4px;
+}
+
+.index.header2 TABLE THEAD TH {
+    padding: 2px 4px;
+}
+
+
+.index TABLE .paging
+{
+    float: right;
+}
+.index TABLE .paging EM
+{
+    padding: 2px 5px;
+    font-weight: normal;
+    font-style: normal;
+    color: #999;
+	line-height: 2em;
+}
+.index TABLE .paging EM.current
+{
+    border: 1px solid #777;
+    background-color: #DDD;
+    color: #000000;
+    font-weight: bold;
+	-moz-border-radius: 4px 12px;
+	-webkit-border-radius: 4px 12px;
+	border-radius: 4px 12px;
+	line-height: 1em;
+}
+.index TABLE .paging EM A
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #36F;
+}
+.index TABLE .paging EM A:hover
+{
+    color: #0000FF;
+}
+.index TABLE .paging
+{
+}
+.index TABLE .paging EM:hover
+{
+}
+.index TABLE .paging EM.disabled
+{
+    color: #999;
+}
+
+.index TABLE input {
+    padding: 0;
+    margin: 0;
+}
+
+.index TABLE {
+	border-collapse: separate;
+
+}
+
+.index TABLE TD
+{
+}
+
+.index table:hover {
+
+}
+
+.index table tbody tr:hover td {
+	border: 0 none;
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #FFF5F5;
+	border-bottom: 1px solid #EEAA99;
+	border-top: 1px solid #EEAA99;
+}
+
+.index table tbody tr:hover{
+	outline: 1px solid #EEE;
+}
+
+.index table tbody tr:hover+tr td {
+	border-top: 0 none;
+	padding-top: 3px;
+}
+
+.index table tbody tr:hover td:first-child {
+	border-left: 1px solid #EEAA99;
+	padding-left: 2px;
+}
+
+
+.index table tbody tr:hover td:last-child {
+	border-right: 1px solid #EEAA99;
+	padding-right: 2px;
+}
+
+.index TABLE .tl {
+    text-align: left;
+}
+
+.index TABLE .tc {
+    text-align: center;
+}
+
+.index TABLE .tr {
+    text-align: right;
+}
+
+.index TABLE .ble {
+	border-left: 1px solid #EEE;
+}
+.index TABLE .bre {
+	border-right: 1px solid #EEE;
+}
+
+.index TABLE .bbe {
+	border-bottom: 1px solid #EEE;
+}
+
+
+.index TABLE .bld {
+	border-left: 1px solid #ddd;
+}
+.index TABLE .brd {
+	border-right: 1px solid #ddd;
+}
+
+.index TABLE .bbd {
+	border-bottom: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+table.round {
+
+}
+
+table.round tr td {
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid white;
+}
+
+table.round tr:last-child td {
+	border-bottom: 1px solid #DDD;
+}
+
+table.round tr td:first-child {
+	border-left: 1px solid #DDD;
+}
+table.round tr td:last-child {
+	border-right: 1px solid #DDD;
+}
+table.round tr:first-child td:first-child {
+	-moz-border-radius-topleft: 4px;
+}
+table.round tr:first-child td:last-child {
+	-moz-border-radius-topright: 4px;
+}
+
+table.round tr:last-child td:first-child {
+	-moz-border-radius-bottomleft: 4px;
+}
+table.round tr:last-child td:last-child {
+	-moz-border-radius-bottomright: 4px;
+}
+
+table.round tr:hover td {
+	background-color: #FFEEDD;
+}
+
+
+
+.index table tfoot th {
+    background: white;
+    border-top: 3px double #DDD;
+}
+
+
+
+H1 {
+    color: #396A92;
+}
+H1 {
+    font-size: 24px;
+    line-height: 2em;
+}
+
+TABLE, TD, TH {
+    vertical-align: middle;
+    border-spacing: 0;
+}
+
+CAPTION, TH, TD {
+    font-weight: normal;
+    font-size: 12px;
+}

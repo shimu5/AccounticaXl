@@ -1,0 +1,205 @@
+ul.simple ul {
+    display: none;
+}
+
+ul.simple li {
+    padding: 0;
+}
+
+ul.simple > li:hover > a {
+    color: #C33;
+    background-color: #DDD; 
+    background: -moz-linear-gradient(#DDD, #D5D5D5);
+}
+
+
+ul.simple li:hover > a {
+    color: black;
+    text-shadow: 0px 0px 1px #666;
+    box-shadow: 0 0 2px rgba(255,255,255,.5);
+}
+
+ul.simple ul {
+    background: white;
+    -moz-border-radius: 6px;
+    
+    border: 3px solid #CCC;
+    background: -moz-linear-gradient(white, #F5F5F5);
+}
+
+ul.simple > li > ul { 
+    -moz-border-radius-topleft: 0;
+}
+
+
+ul.simple li a, ul.simple li span {
+    color: #990000;
+}
+
+ul.simple ul li:hover > a {
+
+}
+
+
+ul.simple ul li:hover > a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #E7F0FB;
+    border-top: 1px solid #527DE0;
+    border-bottom: 1px solid #527DE0;
+}
+
+ul.simple ul li:first-child a {
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+}
+
+ul.simple > li > ul > li:first-child a {
+     -moz-border-radius-topleft: 0;
+}
+
+
+ul.simple ul li:first-child:hover > a {
+    border-top: 0px none;
+    padding-top: 4px;
+}
+
+ul.simple ul li:last-child:hover > a {
+    border-bottom: 0px none;
+    padding-bottom: 4px;
+}
+
+
+.mainmenu ul li:first-child > a:after {
+}
+
+.mainmenu ul ul li:first-child a:after {
+}
+
+.simple ul {
+
+}
+
+.simple ul a:hover
+{
+    /*
+    background: #0186ba;
+    background: -moz-linear-gradient(#04acec,  #0186ba);    
+    background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+    background: -webkit-linear-gradient(#04acec,  #0186ba);
+    background: -o-linear-gradient(#04acec,  #0186ba);
+    background: -ms-linear-gradient(#04acec,  #0186ba);
+    background: linear-gradient(#04acec,  #0186ba);
+    */
+}
+
+ 
+.simple ul li:first-child > a:after
+{
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid white;
+}
+
+.simple ul li:first-child > a:before
+{
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: -12px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #CCC;
+}
+
+
+.simple ul ul li:first-child a:before
+{
+    content: '';
+    left: -12px;
+    top: 1px;
+    width: 0;
+    height: 0;
+    border-left: 0;     
+    border-bottom: 11px solid transparent;
+    border-top: 11px solid transparent;
+    border-right: 12px solid #CCC;
+}
+
+
+.simple ul ul li:first-child a:after
+{
+    content: '';
+    left: -8px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    border-left: 0;     
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid transparent;
+    border-right: 8px solid white;
+}
+
+
+.simple ul li:first-child a:hover:after
+{
+    border-bottom-color: #E7F0FB; 
+}
+ 
+.simple ul ul li:first-child a:hover:after
+{
+    border-right-color: #E7F0FB; 
+    border-bottom-color: transparent;   
+}
+ 
+
+.simple li:hover > a
+{
+    color: black;
+}
+ 
+*html .simple li a:hover /* IE6 */
+{
+    color: black;
+}
+
+
+/*
+
+ul.mainmenu {
+    padding: 0 0 0.5em 0;
+    float: left;
+}
+
+
+ul.mainmenu > li a {
+    padding: 4px 12px;
+    color: #990000;
+    text-decoration: none;
+}
+
+ul.mainmenu > li a:hover {
+    background-color: #DDD;
+    color: #C33; 
+}
+*/
+
+/*
+.simple {
+    padding-top: 4px;
+}
+    
+ul.simple > li:hover > a {
+    background: #E7F0FB;
+    border: 1px solid #527DE0;
+    padding: 3px 11px;
+}
+*/

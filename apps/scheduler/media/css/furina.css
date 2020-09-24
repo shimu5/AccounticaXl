@@ -1,0 +1,494 @@
+/* FONT STYLE */
+HTML, BODY {
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+INPUT, TEXTAREA, SELECT {
+    font-family: "Trebuchet MS", Verdana, serif;
+    font-size: 14px;
+}
+H1, H2, H3, H4, H5, H6 {
+    font-family: "Trebuchet MS", Verdana, serif;
+}
+/*FONT SIZE*/
+H1, H2, H3, H4, H5, H6 {
+    font-weight: normal;
+}
+H1 {
+    font-size: 24px;
+    line-height: 2em;
+}
+H2 {
+    font-size: 22px;
+    line-height: 2em;
+}
+H3 {
+    font-size: 20px;
+    line-height: 2em;
+}
+H4 {
+    font-size: 1.2em;
+    line-height: 1.25;
+}
+H5 {
+    font-size: 1em;
+    font-weight: bold;
+}
+H6 {
+    font-size: 1em;
+    font-weight: bold;
+}
+/*COLOR*/
+A {
+    color: #009;
+}
+/*
+A:link, A:visited {
+    color: #369;
+}
+/*
+A:focus, A:hover, A:active {
+    color: #5C8127;
+    text-decoration: none;
+}
+*/
+H1 {
+    color: #396A92;
+}
+
+H2, H3, H4, H5, H6 {
+    color: #4785B8;
+}
+BODY
+{
+/*background-color: #477FAE;*/
+    background-color: #DBEFF6;
+    color: #000000;
+}
+
+.container {
+    clear: both;
+    width: 1280px;
+    margin: 0 auto;
+    background: transparent url('../../images/body.png') repeat-y top center; 
+}
+
+#header {
+	background: transparent url('../../images/header.png') no-repeat top center;
+	height: 100px;
+}
+
+#footer {
+	background: transparent url('../../images/footer.png') no-repeat top center;
+	height: 60px;
+}
+
+
+.wrapper {
+    margin: 0 55px;
+ }
+
+
+#header .wrapper {
+    border: 0px none;
+    padding: 0;
+}
+
+
+#header .logo {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-top: 9px;
+    width: 300px;
+    height: 50px;
+}
+
+#header .logo h1 {
+    text-shadow: 1px 1px 2px #fff;
+    letter-spacing:-2px;
+    font-size: 48px;
+    margin: 0;
+    padding: 0 0 0 12px;
+    line-height: 80px;
+    color: #990000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#header .logo h1 span {
+    color: #396A93;
+}
+
+#header .logo h2 {
+    background: transparent url('../../images/oj.png') no-repeat top left;
+    width: 300px;
+    height: 50px;
+    text-indent: -2000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#header .menu {
+    float: right;
+    color: #990000;
+    _width: 455px;
+}
+/*
+.menu ul.mainmenu {
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.menu ul.mainmenu > li > a {
+    color: #FFD71D;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.menu ul.mainmenu > li:hover > a {
+    color: white;
+    background-color: black;
+}
+
+.menu ul.mainmenu ul {
+    border-color: black;
+}
+
+.menu ul.mainmenu > li ul li {
+
+}
+
+.menu ul.mainmenu > li ul li a {
+
+}
+*/
+#header .login {
+	float: right;
+	padding-right: 10px; 
+}
+
+#header .login a {
+	color: #DDD;
+	padding: 0 10px;
+	text-decoration: none;
+	font-size: 0.95em;
+}
+
+
+.flash_message, .flash_message .wrapper {
+    text-align: center;
+    height: auto;
+    color: wheat;
+}
+
+.heading {
+    border-bottom: 4px solid #DDD;
+}
+
+.heading.wrapper {
+    padding: 2px 4px;
+}
+
+.heading H1 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1em;
+    color: #222222; /*#2D5373;*/
+    
+    padding-bottom: 2px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.heading H2 { 
+    padding: 0; 
+    margin: 0; 
+    line-height: 1em; 
+    color: #600;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1em;
+}
+
+#main {
+}
+
+#main .content {
+    min-height: 300px;
+    padding-bottom: 1em;
+}
+
+
+
+BODY {
+    background-color: #F5ECCF;
+}
+
+#footer {
+    background-color: #F5ECCF;
+}
+
+#footer .endcontent {
+}
+
+.spacing {
+    overflow: hidden;
+    height: 0.5em;
+    clear: both;
+}
+
+#footer .common {
+	padding-top: 8px;
+}
+
+#footer .information {
+	width: 100px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+.page { width: 96%; margin: 0 auto; border: 5px solid #ACE; }
+
+
+.footer { 
+}
+
+.footer A
+{
+    color: #B01B1B;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.footer A:hover
+{
+    color: #CC0000;
+}
+.m1emh { margin: 0 1em; }
+
+
+.minibar { float: right; }
+.minibar .icon { 
+    padding: 1px .5em; 
+    border: 1px solid #CCC; 
+    margin-left: 0.5em; 
+    text-decoration: none;
+}
+
+
+
+.legend {
+    color: #036;
+    font-size: 1.1em;
+}
+
+.heading h1, .heading h2 {
+    /*text-transform: lowercase;*/
+}
+
+.heading h1 span, .heading h2 span {
+    text-transform: none;
+}
+
+.legend h4, .legend h5, .legend h6 {
+    text-transform: lowercase;
+}
+
+.legend a, .legend button, .legend input[type="submit"] {
+    text-transform: lowercase;
+}
+
+/*
+
+.index .action a {
+    margin: 1px;
+    display: inline-block;
+    height: 20px;
+    padding: 0 4px;
+    line-height: 20px;
+}
+
+.index .action a:hover {
+    margin: 0;
+    border: 1px solid #369;
+    -moz-border-radius: 4px;
+    background-color: #EEE;
+    color: black;
+    text-decoration: none;
+}
+*/
+
+/*
+Debug Tables
+*/
+.debug
+{
+    width: 92%;
+    margin: 0.5em auto;
+    border: 1px solid #9AB;
+}
+
+.debug TD pre {
+	font-family: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+.debug TD, .debug TH
+{
+    padding: 1px 4px;
+    background-color: #CBDFE6;
+}
+.debug TD
+{
+    border-top: 1px solid #BCD;
+}
+
+
+.debug table {
+	width: 100%;
+}
+
+.debug table th, .debug table td {
+	padding: 3px 5px;
+}
+      
+
+
+
+.menucontainer ul.simple {
+    width: auto;
+    float: left;
+}
+
+.menucontainer {
+    background-color: #EEE;
+    -moz-border-radius-bottomleft: 8px;
+    -moz-border-radius-bottomright: 8px;
+}
+
+.flash {
+    text-align: center;
+	position: relative;
+	top: -25px;
+	margin: 0;
+	height: 0;
+}
+
+.flash > div {
+	background: none repeat scroll 0 0 #FFFF9F;
+	border: 1px solid #CCCC66;
+	border-radius: 4px 4px 4px 4px;
+	display: inline;
+	padding: 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.files .size {
+	color: #666;
+	font-size: 0.8em;
+}
+.files table.ww100p {
+	padding: 0 12px;
+}
+.files .descfile {
+	padding: 0 5px;
+}
+.descfile .fileinfo {
+	width: 64px;
+	text-align: center;
+	border: 1px solid #CCC;
+	-moz-border-radius: 4px;
+	color: #633;
+	overflow: hidden;
+	float: left;
+	margin: 0 3px;
+}
+.descfile span.size {
+	border-top: 1px solid #DDD;
+	display: block;
+	background: #EEE;
+}
+.descfile .fileinfo > span.icon {
+	line-height: 48px;
+	height: 48px;
+	background: white;
+	border: 0;
+}
+
+
+table.iofiles tr td {
+	padding: 8px 5px;
+}
+
+table.round tr td.numbering {
+	padding: 0 10px;
+	/*display: inline-block;
+	 padding: 0 9px;*/
+}
+
+.numbering div {
+	background: #EEE;
+	font-size: 16px;
+	border-radius: 20px;
+	border: 1px solid #DDD;
+	width: 24px;
+	text-align: center;
+	height: 24px;
+}
+
+.green .numbering div {
+	background-color: #9F9;
+	border-color: #693;
+}
+.red .numbering div {
+	background-color: #FA7;
+	border-color: #F00;
+}

@@ -1,0 +1,63 @@
+#header {
+    background: none repeat scroll 0 0 #333333;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: auto;
+}
+
+
+
+#header .logo h1 {
+    color: #99CC66;
+    font-size: 37px;
+    left: -8px;
+    line-height: 65px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+
+BODY {
+	background-color: #ECF5EF;
+}
+
+.container {
+	width: 100%;
+}
+
+.ig5 {
+	clear: both;
+	width: 100% !important;
+}
+
+.main_box {
+	margin: 0;
+	background: white;
+	border: 1px solid #99CC99;
+	border-top: 0 none;
+}
+
+.wrapper {
+	margin: 0 10px;
+}
+
+
+#footer .common div {
+    width: 100%;
+    text-align: center;
+}
+#header .logo {
+    width: 125px;
+    height: 35px;
+    margin-top: 0;
+}
+#header .logo h1 {
+    font-size: 28px !important;
+    line-height: 34px;
+    margin: 0 !important;
+}
+
+.heading H1 {
+    font-size: 20px;
+    text-transform: capitalize;
+}

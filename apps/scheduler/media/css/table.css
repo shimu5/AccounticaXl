@@ -1,0 +1,252 @@
+div.pl_list {
+    clear: both;
+    border: 1px solid #CCC;
+    zoom: 1;
+    overflow: hidden;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.pl_list TABLE {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.pl_list TABLE TD
+{
+    padding: 2px;
+    /*border-right: 1px solid #EEE;*/
+	border: 1px solid transparent;
+    border-top: 1px solid #DDD;
+	vertical-align: top;
+}
+
+/* ie6 support for balck borders*/
+.pl_list TABLE TD {
+    _border: 1px solid white;
+}
+
+/*
+.pl_list TABLE TD:first-child, .pl_list TABLE TH:last-child, {
+    border-right: 0px none;
+}
+*/
+.pl_list TABLE TBODY TD
+{
+    background-color: #FFFFFF;
+}
+
+.pl_list TABLE THEAD, .pl_list TABLE TFOOT {
+	background: #F5F5F5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F5F5F5), to(#EEEEEE))  ;
+	background: -moz-linear-gradient(top,  #F5F5F5,  #EEEEEE);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#EEEEEE');
+}
+
+.pl_list TABLE THEAD {
+    border-bottom: 2px solid #D5D5D5;
+}
+
+.pl_list TABLE TH, .pl_list TABLE TFOOT TD
+{
+    padding: 2px 4px;
+    /* border-right: 1px solid #DDD; */
+}
+
+.pl_list TABLE THEAD TH {
+    padding: 4px 4px;
+}
+
+.pl_list.header2 TABLE THEAD TH {
+    padding: 2px 4px;
+}
+
+
+.pl_list TABLE .paging
+{
+    float: right;
+}
+.pl_list TABLE .paging EM
+{
+    padding: 2px 5px;
+    font-weight: normal;
+    font-style: normal;
+    color: #999;
+	line-height: 2em;
+}
+.pl_list TABLE .paging EM.current
+{
+    border: 1px solid #777;
+    background-color: #DDD;
+    color: #000000;
+    font-weight: bold;
+	-moz-border-radius: 4px 12px;
+	-webkit-border-radius: 4px 12px;
+	border-radius: 4px 12px;
+	line-height: 1em;
+}
+.pl_list TABLE .paging EM A
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #36F;
+}
+.pl_list TABLE .paging EM A:hover
+{
+    color: #0000FF;
+}
+.pl_list TABLE .paging
+{
+}
+.pl_list TABLE .paging EM:hover
+{
+}
+.pl_list TABLE .paging EM.disabled
+{
+    color: #999;
+}
+
+.pl_list TABLE input {
+    padding: 0;
+    margin: 0;
+}
+
+.pl_list TABLE {
+	border-collapse: separate;
+
+}
+
+.pl_list TABLE TD
+{
+}
+
+.pl_list table:hover {
+
+}
+
+.pl_list table tbody tr:hover td {
+	border: 0 none;
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #FFF5F5;
+	border-bottom: 1px solid #EEAA99;
+	border-top: 1px solid #EEAA99;
+}
+
+.pl_list table tbody tr:hover{
+	outline: 1px solid #EEE;
+}
+
+.pl_list table tbody tr:hover+tr td {
+	border-top: 0 none;
+	padding-top: 3px;
+}
+
+.pl_list table tbody tr:hover td:first-child {
+	border-left: 1px solid #EEAA99;
+	padding-left: 2px;
+}
+
+
+.pl_list table tbody tr:hover td:last-child {
+	border-right: 1px solid #EEAA99;
+	padding-right: 2px;
+}
+
+.pl_list TABLE .tl {
+    text-align: left;
+}
+
+.pl_list TABLE .tc {
+    text-align: center;
+}
+
+.pl_list TABLE .tr {
+    text-align: right;
+}
+
+.pl_list TABLE .ble {
+	border-left: 1px solid #EEE;
+}
+.pl_list TABLE .bre {
+	border-right: 1px solid #EEE;
+}
+
+.pl_list TABLE .bbe {
+	border-bottom: 1px solid #EEE;
+}
+
+
+.pl_list TABLE .bld {
+	border-left: 1px solid #ddd;
+}
+.pl_list TABLE .brd {
+	border-right: 1px solid #ddd;
+}
+
+.pl_list TABLE .bbd {
+	border-bottom: 1px solid #ddd;
+}
+
+
+
+
+.pl_list table.round tr td {
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid white;
+}
+
+.pl_list table.round tr:last-child td {
+	border-bottom: 1px solid #DDD;
+}
+
+.pl_list table.round tr td:first-child {
+	border-left: 1px solid #DDD;
+}
+.pl_list table.round tr td:last-child {
+	border-right: 1px solid #DDD;
+}
+.pl_list table.round tr:first-child td:first-child {
+	-moz-border-radius-topleft: 4px;
+}
+.pl_list table.round tr:first-child td:last-child {
+	-moz-border-radius-topright: 4px;
+}
+
+.pl_list table.round tr:last-child td:first-child {
+	-moz-border-radius-bottomleft: 4px;
+}
+.pl_list table.round tr:last-child td:last-child {
+	-moz-border-radius-bottomright: 4px;
+}
+
+.pl_list table.round tr:hover td {
+	background-color: #FFEEDD;
+}
+
+
+
+.pl_list table tfoot th {
+    background: white;
+    border-top: 3px double #DDD;
+}
+
+
+
+.pl_list_h1{
+    color: #396A92;
+    font-size: 24px;
+    line-height: 2em;
+}
+
+
+.pl_list TABLE, .pl_list TD, .pl_list TH {
+    vertical-align: middle;
+    border-spacing: 0;
+}
+
+.pl_list CAPTION, .pl_list TH, .pl_list TD {
+    font-weight: normal;
+    font-size: 13px;
+}

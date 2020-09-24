@@ -1,0 +1,184 @@
+.mainmenu
+{
+    width: 100%;
+    margin: 0;
+    list-style: none;
+}
+ 
+.mainmenu li
+{
+    float: left;
+    position: relative;
+    line-height: 0;
+    margin: 0;
+}
+ 
+.mainmenu a 
+{
+    float: left;
+    /*height: 25px;*/
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+}
+ 
+ 
+.mainmenu li:hover > ul
+{
+        display: block;
+}
+
+.mainmenu li:hover {
+    z-index: 9999;
+}
+ 
+/* Sub-menu */
+ 
+.mainmenu ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    z-index: 99999;
+}
+
+.mainmenu ul ul
+{
+  top: 0;
+  left: 150px;
+}
+ 
+.mainmenu ul li
+{
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+ 
+.mainmenu ul li:last-child
+{   
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;    
+}
+ 
+.mainmenu ul a
+{
+    padding: 6px 10px;
+    height: 10px;
+    /*width: 130px;*/
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+    min-width: 130px;
+}
+ 
+*html .mainmenu ul a /* IE6 */
+{    
+    height: 10px;
+}
+ 
+*:first-child+html .mainmenu ul a /* IE7 */
+{    
+    width: 150px;
+}
+ 
+
+.mainmenu ul li:first-child > a
+{
+    /*
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    */
+}
+
+ 
+.mainmenu ul li:last-child > a
+{
+    /*
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    */
+}
+ 
+/* Clear floated elements */
+.mainmenu:after 
+{
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+}
+ 
+* html .mainmenu             { zoom: 1; } /* IE6 */
+*:first-child+html .mainmenu { zoom: 1; } /* IE7 */
+
+
+
+
+ /*all level menu */
+/*ul.mainmenu li a {*/
+
+/*}*/
+
+ /*first level menu */
+/*ul.mainmenu > li > a {*/
+    /*color: #FFD71D;*/
+/*}*/
+/*ul.mainmenu > li:hover > a {*/
+    /*color: #999;*/
+/*}*/
+
+
+ /*second + level menu */
+/*ul.mainmenu ul li > a {*/
+    /*color: #666;*/
+/*}*/
+
+/*.mainmenu > li:hover > a {*/
+    /*background-color: #DDD;*/
+/*}*/
+
+/*.mainmenu ul {*/
+    /*background: #F5F5F5;*/
+    /*border: 1px solid #CCC;*/
+/*}*/
+
+/*ul.simple ul li:hover > a {*/
+    /*background-color: #EEE;*/
+/*}*/
+
+
+
+/*
+ul.simple li a, ul.simple li span {
+    text-decoration: none;
+    line-height: 20px;
+    padding: 4px 12px;
+    display: block;
+}
+*/
+/*
+.menu ul.mainmenu > li > a {
+    color: #FFD71D;
+    font-family: verdana;
+    font-size: 15px;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.menu ul.mainmenu {
+	padding-top: 0;
+	padding-bottom: 6px;
+}
+*/

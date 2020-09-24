@@ -1,0 +1,31 @@
+.icon48 .icon {
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+}
+
+.icon48 .warning {
+	background: transparent url('../../images/icons/48/warning_48.png') top center no-repeat;
+}
+
+
+.zbox {
+	margin: 0 12px;
+}
+
+.zbox .yellow {
+	padding: 10px;
+	background-color: #FFE;
+	border: 1px solid #CC9;
+}
+
+.zbox .warning {
+	background-image: url("../../images/icons/48/warning_48.png");
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	min-height: 48px;
+	padding-left: 72px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
